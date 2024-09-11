@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(250, 217, 167);
+}
+
+h1{
+    background-color: blanchedalmond;
+    padding: 3rem 2rem;
+}
+
+h2{
+  color: red;
+}
+
+div{
+
+    background-color: rgb(241, 210, 169) ;
+}
+
+iframe{
+    width: 300px;
+    height: auto;
+    margin-left: 525px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(101, 101, 101);
+}
+
+#video{
+    color: rgb(224, 53, 53);
+    text-align: center;
+}
+
+#tuto{
+    background-color: rgb(224, 172, 113);
+   border-radius:10px ;
+    display: block;
+}
+
+form{
+    background-color: rgb(211, 166, 111);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#hola{
+    text-align: center;
+    color: rgb(133, 104, 70);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
