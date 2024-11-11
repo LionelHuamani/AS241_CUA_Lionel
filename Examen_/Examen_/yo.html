@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog2</title>
+    <link rel="stylesheet" href="css/yo.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>Lionel Huamani</h1>
+            <button class="toggle-menu" onclick="toggleMenu()">☰</button>
+        </div>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html" onclick="showContent('home')">Inicio</a></li>
+                <li><a href="Proyectos.html" onclick="showContent('about')">Sobre mí</a></li>
+                <li><a href="yo.html" onclick="showContent('contact')">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Mis contactos son los siguientes:</h2>
+        <section>
+            <nav class="contacto">
+                <a href="https://wa.link/kz6ybx"><img src="img/wsp.png" alt="">whassap</a>
+                <a href=""><img src="img/gmail.png" alt="">gmail</a>
+                <a href="https://github.com/LionelHuamani"><img src="img/github.png" alt="">GitHub</a>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mi Sitio Web</p>
+    </footer>
+    <script src="js/yo.js"></script>
+
+</body>
+</html>

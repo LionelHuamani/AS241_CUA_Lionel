@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #b8b268;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-menu {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    /* Ocultar por defecto */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para el contenido */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.soy {
+    background-color: rgb(74, 121, 105);
+    border-radius: 30px;
+    margin: 60px;
+    padding: 60px;
+}
+
+.soy h2 {
+    text-align: center;
+}
+
+.soy img {
+    display: block;      /* Para que el margin auto funcione */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;      /* Para evitar que la imagen se desborde */
+    height: auto;
+}
+
+.futbol {
+    background-color: rgb(168, 199, 188);
+    border-radius: 30px;
+    margin: 60px;
+    padding: 60px;
+}
+
+.futbol img{
+    display: block;      /* Para que el margin auto funcione */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;      /* Para evitar que la imagen se desborde */
+    height: auto;
+}
+
+.carrera {
+    background-color: rgb(104, 238, 193);
+    border-radius: 30px;
+    margin: 60px;
+    padding: 60px;
+}
+
+.carrera img{
+    display: block;      /* Para que el margin auto funcione */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;      /* Para evitar que la imagen se desborde */
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #b8b268;
+    color: #fff;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .toggle-menu {
+        display: block;
+        /* Mostrar el botón en pantallas pequeñas */
+    }
+
+    nav {
+        display: none;
+        /* Ocultar el menú por defecto */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav.active {
+        display: flex;
+        /* Mostrar menú cuando está activo */
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
