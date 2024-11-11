@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+}
+
+.logo{
+    text-align: center;
+}
+
+img{
+    position:relative;
+    top: 45%;
+    left: 45%;
+    transform: translate(-20%);
+}
+
+nav{
+    text-align: center;
+    display: inline;
+    cursor:all-scroll;
+}
+
+h2{
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    .togle-menu{
+        display: block;
+    }
+}
